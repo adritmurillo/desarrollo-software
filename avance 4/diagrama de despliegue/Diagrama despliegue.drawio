@@ -1,0 +1,81 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
+  <diagram name="Página-1" id="7mw2W12VjWxAlupmWgqX">
+    <mxGraphModel dx="2261" dy="1955" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FcSu75oibOvc5KmAQSFp-1" value="Servidor base de datos" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="440" y="170" width="250" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="FcSu75oibOvc5KmAQSFp-2" value="«BD»&lt;br&gt;&lt;b&gt;MYSQL&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="480" y="320" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="FcSu75oibOvc5KmAQSFp-3" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" parent="FcSu75oibOvc5KmAQSFp-2" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FcSu75oibOvc5KmAQSFp-4" value="Servidor de aplicación&amp;nbsp;Apache tomcat 10.1" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="-180" y="30" width="380" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="FcSu75oibOvc5KmAQSFp-5" value="«WEB APLICATION»&lt;br&gt;&lt;b&gt;Colegio_educa_avanza_web&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="-80" y="90" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="FcSu75oibOvc5KmAQSFp-6" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" parent="FcSu75oibOvc5KmAQSFp-5" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FcSu75oibOvc5KmAQSFp-7" value="Cosulta SQL" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;endFill=0;" parent="1" source="FcSu75oibOvc5KmAQSFp-5" target="FcSu75oibOvc5KmAQSFp-2" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="370" y="100" as="sourcePoint" />
+            <mxPoint x="450" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FcSu75oibOvc5KmAQSFp-9" value="CLIENTE" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="400" y="-60" width="250" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="FcSu75oibOvc5KmAQSFp-12" value="«Equipo Cliente »&lt;br&gt;&lt;b&gt;React navegador&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="450" y="-10" width="150" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="FcSu75oibOvc5KmAQSFp-13" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" parent="FcSu75oibOvc5KmAQSFp-12" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FcSu75oibOvc5KmAQSFp-14" value="HTTP Requests" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endFill=0;" parent="1" source="FcSu75oibOvc5KmAQSFp-5" target="FcSu75oibOvc5KmAQSFp-12" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="110" y="182" as="sourcePoint" />
+            <mxPoint x="490" y="338" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FcSu75oibOvc5KmAQSFp-15" value="«BIBLIOTECA»&lt;br&gt;&lt;b&gt;Colegio_educa_avanza_web_sharedlib&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="-115" y="210" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="FcSu75oibOvc5KmAQSFp-16" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" parent="FcSu75oibOvc5KmAQSFp-15" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FcSu75oibOvc5KmAQSFp-18" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="-160" y="415" width="320" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="FcSu75oibOvc5KmAQSFp-19" value="RENIEC" style="html=1;dropTarget=0;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="-70" y="470" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="FcSu75oibOvc5KmAQSFp-20" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" parent="FcSu75oibOvc5KmAQSFp-19" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FcSu75oibOvc5KmAQSFp-21" value="&lt;a href=&quot;https://www.dniruc.com/&quot; target=&quot;_new&quot; rel=&quot;noopener&quot;&gt;https://www.dniruc.com/&lt;/a&gt;" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;endFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="FcSu75oibOvc5KmAQSFp-15" target="FcSu75oibOvc5KmAQSFp-19" edge="1">
+          <mxGeometry x="-0.0003" width="80" relative="1" as="geometry">
+            <mxPoint x="110" y="182" as="sourcePoint" />
+            <mxPoint x="490" y="338" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
